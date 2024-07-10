@@ -5,7 +5,7 @@ CALL "env\Scripts\activate"
 python -m venv env
 CALL "env\Scripts\activate"
 )
-pip install -U requirements.txt
+pip install -U -r requirements.txt
 cls
 python main.py
 pause
