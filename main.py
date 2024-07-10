@@ -51,7 +51,7 @@ def key_press(key:str, delay:float, duration:float, window:PSG.Window):
 
 def main():
   layout = theme_selection()
-  window = PSG.Window(f"PyKeyExtender | by Piombacciaio", layout, icon="icon1.ico", finalize=True, keep_on_top=True, location=(0,0))
+  window = PSG.Window(f"PyKeyExtender | by Piombacciaio", layout, icon="icon.ico", finalize=True, keep_on_top=True, location=(0,0))
   while 1: 
     events, values = window.read()
     if events == PSG.WIN_CLOSED: break
